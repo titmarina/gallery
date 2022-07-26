@@ -1,0 +1,61 @@
+.header {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.container {
+    
+    max-width: 1920px;
+
+}
+
+
+.logo {
+    position: absolute;
+    left: 64.37px;
+    top: 22.16px;
+}
+
+
+.header__wrapper {
+    position: relative;
+    display: flex;
+    height: 81px;
+    background-color: black;
+}
+
+
+.header__navigation-list {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 1220px;
+    height: 20px;
+    left: 343px;
+    top: 30px;
+    list-style-type: none;
+
+
+}
+
+.header__navigation-link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 30px;
+  
+
+}
+
+
+.header__navigation-link:hover {
+    background-image: url('../../images/header/Ellipse\ 62.png');
+    background-repeat: no-repeat;
+    background-position: center 60px;
+ 
+}

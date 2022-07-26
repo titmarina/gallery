@@ -1,0 +1,79 @@
+.border {
+    position: absolute;
+width: 39px;
+height: 0px;
+left: 1609px;
+top: 39px;
+
+border: 2px solid rgba(255, 255, 255, 0.3);
+transform: rotate(90deg);
+}
+
+.reiting__love {
+    position: absolute;
+width: 46px;
+height: 46px;
+left: 1563px;
+top: 17px;
+background-color: black;
+
+}
+
+.reiting__love:hover {
+    background-image: url('../../images/header/lovehover.svg');
+    
+}
+
+.contacts-facebook {
+    position: absolute;
+width: 46px;
+height: 46px;
+left: 1646px;
+top: 18px;
+
+}
+
+.contacts-facebook:hover {
+    background-image: url('../../images/header/facebookhover.svg');
+   
+
+}
+.contacts-tik-tok {
+position: absolute;
+width: 46px;
+height: 46px;
+left: 1702px;
+top: 18px;
+}
+
+.contacts-tik-tok:hover {
+    background-image: url('../../images/header/tik\ tokhover.svg');
+}
+
+
+.contacts-instagram {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 1758px;
+    top: 18px;
+    
+
+}
+
+.contacts-instagram:hover {
+    background-image: url('../../images/header/insthover.svg');
+
+}
+.contacts-youtube {
+    position: absolute;
+width: 46px;
+height: 46px;
+left: 1814px;
+top: 18px;
+
+}
+
+.contacts-youtube:hover {
+background-image: url('../../images/header/you\ tubehover.svg');
+}

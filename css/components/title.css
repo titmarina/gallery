@@ -1,0 +1,38 @@
+.categories__title {
+    position: absolute;
+    width: 938px;
+    top: 208px;
+
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 250px;
+    line-height: 220px;
+    color: #FFFFFF;
+    text-shadow: -0 -2px 0 #000000,
+        0 -2px 0 #000000,
+        -0 2px 0 #000000,
+        0 2px 0 #000000,
+        -2px -0 0 #000000,
+        2px -0 0 #000000,
+        -2px 0 0 #000000,
+        2px 0 0 #000000,
+        -1px -2px 0 #000000,
+        1px -2px 0 #000000,
+        -1px 2px 0 #000000,
+        1px 2px 0 #000000,
+        -2px -1px 0 #000000,
+        2px -1px 0 #000000,
+        -2px 1px 0 #000000,
+        2px 1px 0 #000000,
+        -2px -2px 0 #000000,
+        2px -2px 0 #000000,
+        -2px 2px 0 #000000,
+        2px 2px 0 #000000,
+        -2px -2px 0 #000000,
+        2px -2px 0 #000000,
+        -2px 2px 0 #000000,
+        2px 2px 0 #000000;
+
+
+}
