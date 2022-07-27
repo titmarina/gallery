@@ -1,0 +1,42 @@
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.gallery {
+    position: absolute;
+    width: 2076px;
+    height: 930px;
+    left: -82px;
+    top: 1489px;
+
+
+}
+
+.gallery-swiper {
+    width: 1920px;
+    height: 930px;
+}
+
+.box-1 {
+    width: 606px;
+    height: 817px;
+    background-image: url("../../images/slider/Глава\ \(4\)\ 2.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.box-2 {
+    background-image: url('../../images/slider/Основа.png');
+    width: 361px;
+    height: 584px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}

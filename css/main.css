@@ -1,5 +1,15 @@
-@import url('../css/components/header.css');
+@import url('../css/global.css');
+@import url('../css/normalize.css');
 @import url('../css/reset.css');
 @import url('../css/fonts.css');
+
+@import url('../css/components/header.css');
 @import url('../css/components/header_contakt.css');
 @import url('../css/components/title.css');
+@import url('../css/components/slider.css');
+
+
+
+* {
+    box-sizing: border-box;
+}
