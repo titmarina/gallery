@@ -1,42 +1,212 @@
-.slider {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-}
-
 .gallery {
     position: absolute;
     width: 2076px;
     height: 930px;
     left: -82px;
-    top: 1489px;
-
-
-}
+    top: 1489px;  }
 
 .gallery-swiper {
     width: 1920px;
     height: 930px;
 }
 
+.swipper-blok {
+ margin: 10px;
+}
+
+.swiper-slide-1 {
+    width: 327px;
+    height: 770px;
+}
+
 .box-1 {
+    width: 256px;
+    height: 587px;
+    background-image: url('../../images/slider/IMG_4200\ 1.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+.swiper-slide-2 {
+    width: 361px;
+    height: 769px;
+   
+}
+
+.box-2 {
+    width: 361px;
+    height: 584px;
+    background-image: url('../../images/slider/для\ маленьких\ картин\ 1.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.swiper-slide-3 {
     width: 606px;
-    height: 817px;
+   height: 817px;
+  
+}
+
+.box-3 {
+    width: 586px;
+    height: 584px;
     background-image: url("../../images/slider/Глава\ \(4\)\ 2.png");
     display: flex;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
-
-
 }
 
-.box-2 {
+.swiper-slide-4 {
+    width: 361px;
+    height: 767px;
+}
+
+.box-4 {
     background-image: url('../../images/slider/Основа.png');
     width: 361px;
     height: 584px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat
+}
+
+.swiper-slide-5 {
+    width: 320px;
+    height: 771px;
+
+}
+
+.box-5 {
+    background-image: url('../../images/slider/Глава\ \(3\)\ 1.png');
+    width: 280px;
+    height: 607px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat
+}
+
+
+
+.swiper-slide-6 {
+    width: 327px;
+    height: 770px;
+
+}
+
+.box-6 {
+    width: 256px;
+    height: 587px;
+    background-image: url('../../images/slider/IMG_4200\ 1.png');
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.swiper-slide-7 {
+    width: 361px;
+    height: 769px;
+}
+
+.box-7 {
+    width: 361px;
+    height: 584px;
+    background-image: url('../../images/slider/для\ маленьких\ картин\ 1.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.swiper-slide-8 {
+    width: 606px;
+    height: 817px;
+}
+
+.box-8 {
+    width: 586px;
+    height: 584px;
+    background-image: url("../../images/slider/Глава\ \(4\)\ 2.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-repeat: no-repeat;
+
+}
+
+.swiper-slide-9 {
+    width: 361px;
+    height: 767px;
+}
+
+.box-9{
+    background-image: url('../../images/slider/Основа.png');
+    width: 361px;
+    height: 584px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat
+}
+
+.slider-title {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+color: #3D3D3D;
+
+}
+
+.slider-date {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+}
+
+.slider-price { 
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: #3D3D3D;
+}
+
+.slider-buy {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+text-transform: uppercase;
+color: #4137D0;
+}
+
+/*.slider-line {
+ width: 23px;
+height: 0px;
+left: 456px;
+top: 2085px;
+
+border: 2px solid #3D3D3D;
+transform: rotate(90deg);
 }

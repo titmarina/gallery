@@ -1,0 +1,125 @@
+.new_Painting {
+    height: 1860px;
+}
+
+.new_Painting--title {
+    position: absolute;
+    width: 1750px;
+    height: 220px;
+    left: 85px;
+    top: 2426px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 220px;
+    text-align: center;
+
+}
+
+.new_Painting--painting {
+    position: absolute;
+    width: 1800px;
+    height: 1338px;
+    left: 60px;
+    top: 2686px;
+
+}
+
+.new_Painting-title {
+    position: absolute;
+    width: 717px;
+    height: 61px;
+    left: 597px;
+    top: 4090px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.new_Painting--price {
+    position: absolute;
+    width: 274px;
+    height: 23px;
+    left: 828px;
+    top: 4150px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 28px;
+    text-align: center;
+
+}
+
+.new_Painting--buy {
+    position: absolute;
+    width: 112px;
+    height: 36px;
+    left: 903px;
+    top: 4235px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #4137D0;
+    border: none;
+    cursor: pointer;
+}
+
+.new_Painting--buy:hover {
+    background: #4137D0;
+    box-shadow: 0px 12px 35px rgba(44, 35, 172, 0.55);
+}
+
+.new_Painting--buy:active {
+    background: #2C22AF;
+}
+
+.philosophy {
+    position: absolute;
+    background: url('../../images/images/img.png');
+    width: 641px;
+    height: 641px;
+    left: 1219px;
+    top: 4173px;
+
+}
+
+.philosophy--title {
+    position: absolute;
+    width: 1461px;
+    height: 210px;
+    right: 343px;
+    top: 121px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 210px;
+    color: #272727;
+
+}
+
+.philosophy--text {
+    position: absolute;
+width: 1281px;
+height: 169px;
+right: 510px;
+    bottom: 145px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+color: #7C6E6E;
+
+}
