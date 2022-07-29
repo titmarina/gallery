@@ -1,38 +1,37 @@
-
 .header {
     width: 1920px;
+    height: 1430px;
     margin: 0 auto;
-    
-        
-}
+    border: 1px;
+    border-style: solid;
+    border-color: red;
 
-.logo {
-    position: absolute;
-    left: 64.37px;
-    top: 22.16px;
 }
-
 
 .header__wrapper {
-    position: relative;
+
     display: flex;
     height: 81px;
     background-color: black;
 }
 
 
+.logo {
+    margin: 17px;
+}
+
+
+
 .header__navigation-list {
     display: flex;
-    justify-content: space-around;
-    position: absolute;
     width: 1220px;
     height: 20px;
-    left: 343px;
-    top: 30px;
     list-style-type: none;
-
-
+    margin-left: 107px;
+    margin-top: 31px;
 }
+
+
 
 .header__navigation-link {
     font-family: 'Poppins';
@@ -44,7 +43,7 @@
     color: #FFFFFF;
     text-decoration: none;
     padding: 30px;
-  
+
 
 }
 
@@ -53,14 +52,11 @@
     background-image: url('../../images/header/Ellipse\ 62.png');
     background-repeat: no-repeat;
     background-position: center 60px;
- 
-}
-
-.header__galley {
-
-
-
-
 
 }
 
+.baner {
+    background-image: url('../../images/header/bg.png');
+    height: 1401.87px;
+    background-repeat: no-repeat;
+}

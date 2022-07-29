@@ -1,16 +1,11 @@
 .title {
-    position: absolute;
-    width: 938px;
-    height: 440px;
-    left: 118px;
-    top: 153px;
+   padding: 136px;
     font-family: 'Noto Serif';
     font-style: normal;
     font-weight: 400;
     font-size: 250px;
     line-height: 220px;
     text-transform: uppercase;
-
     color: #FFFFFF;
     text-shadow: -0 -2px 0 #000000,
         0 -2px 0 #000000,
@@ -41,11 +36,9 @@
 }
 
 .title__categories {
-    position: absolute;
     display: flex;
-    bottom: 687px;
-    left: 126px;
-
+    margin-left: 156px;
+    margin-top: -124px;
 
 }
 
@@ -65,21 +58,12 @@
 }
 
 .container__gallery-title {
-    position: absolute;
-width: 1218px;
-height: 220px;
-left: 55px;
-top: 1218px;
-
+ margin-left: 135px;
+ margin-top: 510px;
 font-family: 'Noto Serif';
 font-style: normal;
 font-weight: 400;
 font-size: 200px;
 line-height: 220px;
-
-
-text-transform: uppercase;
-
-color: #272727;
 
 }

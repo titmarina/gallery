@@ -1,9 +1,22 @@
+.main {
+    width: 1920px;
+    height: 4500px;
+    margin: 0 auto;
+    border: 1px;
+    border-style: solid;
+    border-color: red;
+}
+
+
 .gallery {
-    position: absolute;
-    width: 2076px;
+    border: 1px;
+    border-style: solid;
+    border-color: red;
+    width: 1920px;
     height: 930px;
     left: -82px;
-    top: 1489px;  }
+    top: 1489px;
+}
 
 .gallery-swiper {
     width: 1920px;
@@ -11,7 +24,7 @@
 }
 
 .swipper-blok {
- margin: 10px;
+    margin: 10px;
 }
 
 .swiper-slide-1 {
@@ -27,13 +40,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-       
+
 }
 
 .swiper-slide-2 {
     width: 361px;
     height: 769px;
-   
+
 }
 
 .box-2 {
@@ -49,8 +62,8 @@
 
 .swiper-slide-3 {
     width: 606px;
-   height: 817px;
-  
+    height: 817px;
+
 }
 
 .box-3 {
@@ -86,7 +99,7 @@
 
 .box-5 {
     background-image: url('../../images/slider/Глава\ \(3\)\ 1.png');
-    width: 280px;
+    width: 163px;
     height: 607px;
     display: flex;
     justify-content: center;
@@ -141,7 +154,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
 
 }
 
@@ -150,7 +163,7 @@
     height: 767px;
 }
 
-.box-9{
+.box-9 {
     background-image: url('../../images/slider/Основа.png');
     width: 361px;
     height: 584px;
@@ -161,44 +174,44 @@
 }
 
 .slider-title {
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 28px;
-text-align: center;
-color: #3D3D3D;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #3D3D3D;
 
 }
 
 .slider-date {
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
 }
 
-.slider-price { 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-color: #3D3D3D;
+.slider-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #3D3D3D;
 }
 
 .slider-buy {
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 30px;
-text-align: center;
-text-transform: uppercase;
-color: #4137D0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4137D0;
 }
 
 /*.slider-line {
