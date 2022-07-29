@@ -66,7 +66,7 @@
 
 
 
-.philosophy--title {
+.philosophy__title {
     font-family: 'Noto Serif';
     font-style: normal;
     font-weight: 400;
@@ -80,6 +80,7 @@
 .philosophy--img {
     margin-left: 1219px;
 }
+
 .philosophy--text {
     font-family: 'Poppins';
     font-style: normal;
@@ -93,6 +94,44 @@
 }
 
 .philosophy-img {
-   margin-top: 41px;
-   margin-left: 53px;
+    float: left;
+    margin: 41px 47px 50px 53px;
 }
+
+.philosophy__title--subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-shadow: 0 -2px 0 #000000,
+        0 -2px 0 #000000,
+        0 2px 0 #000000,
+        0 2px 0 #000000,
+        -2px 0 0 #000000,
+        2px 0 0 #000000,
+        -2px 0 0 #000000,
+        2px 0 0 #000000,
+        -1px -2px 0 #000000,
+        1px -2px 0 #000000,
+        -1px 2px 0 #000000,
+        1px 2px 0 #000000,
+        -2px -1px 0 #000000,
+        2px -1px 0 #000000,
+        -2px 1px 0 #000000,
+        2px 1px 0 #000000,
+        -2px -2px 0 #000000,
+        2px -2px 0 #000000,
+        -2px 2px 0 #000000,
+        2px 2px 0 #000000,
+        -2px -2px 0 #000000,
+        2px -2px 0 #000000,
+        -2px 2px 0 #000000,
+        2px 2px 0 #000000;
+}
+
+.bloc-content {
+    margin-top: 119px;
+}
+
