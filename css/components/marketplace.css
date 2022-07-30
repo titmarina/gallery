@@ -1,0 +1,33 @@
+.marketplace__baner {
+    background-image: url('../../images/images/bg.png');
+    background-repeat: no-repeat;
+    height: 1905px;
+    margin-top: -400px;
+}
+
+.marketplace__baner-title {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 210px;
+    color: #FFFFFF;
+    margin-top: 475px;
+    margin-left: 53px;
+
+
+}
+
+.marketplace__baner-content {
+   
+
+}
+
+.marketplace__baner-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF; 
+}
