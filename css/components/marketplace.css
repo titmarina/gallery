@@ -1,7 +1,7 @@
 .marketplace__baner {
     background-image: url('../../images/images/bg.png');
     background-repeat: no-repeat;
-    height: 1905px;
+    height: 1520px;
     margin-top: -400px;
 }
 
@@ -12,22 +12,26 @@
     font-size: 200px;
     line-height: 210px;
     color: #FFFFFF;
-    margin-top: 475px;
-    margin-left: 53px;
+    margin-top: 569px;
+    margin-left: -610px;
 
 
 }
 
 .marketplace__baner-content {
-   
+   display: flex;
 
 }
 
 .marketplace__baner-text{
+    width: 1024px;
+height: 127px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 32px;
     color: #FFFFFF; 
+    margin-left: 438px;
+    margin-top: -334px;
 }

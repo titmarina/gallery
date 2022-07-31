@@ -2,16 +2,16 @@
     width: 1920px;
     height: 7000px;
     margin: 0 auto;
-    border: 1px;
+   /* border: 1px;
     border-style: solid;
-    border-color: red;
+    border-color: red;*/
 }
 
 
 .gallery {
-    border: 1px;
+    /*border: 1px;
     border-style: solid;
-    border-color: red;
+    border-color: red;*/
     width: 1920px;
     height: 930px;
     left: -82px;
@@ -23,11 +23,8 @@
     height: 930px;
 }
 
-.swipper-blok {
-    margin: 10px;
-}
 
-.swiper-slide-1 {
+.swiper-slide {
     width: 327px;
     height: 770px;
 }
