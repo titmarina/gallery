@@ -1,36 +1,57 @@
 .main {
     width: 1920px;
-    height: 7000px;
     margin: 0 auto;
-   /* border: 1px;
-    border-style: solid;
-    border-color: red;*/
+}
+
+.wrapper {
+    position: relative;
+ 
+}
+
+.gallery__swiper {
+    max-width: 1920px;
+    height: 800px;
+    margin: 100px auto;
+
 }
 
 
-.gallery {
-    /*border: 1px;
-    border-style: solid;
-    border-color: red;*/
-    width: 1920px;
-    height: 930px;
-    left: -82px;
-    top: 1489px;
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    display: none;
 }
 
-.gallery-swiper {
-    width: 1920px;
-    height: 930px;
+
+.swiper-button-prev {
+    left: -50px;
+}
+
+.swiper-button-next {
+    right: -50px;
 }
 
 
 .swiper-slide {
-    width: 327px;
-    height: 770px;
+transition: 0.5s;
 }
 
-.box-1 {
-    width: 256px;
+
+.swiper-slide-active {
+    transform: scale(1,2);
+    transition: 0.5s;
+}
+.swiper-pagination-bullets {
+    
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    opacity: 1;
+}
+
+
+
+.gallery__block-1 {
+   
     height: 587px;
     background-image: url('../../images/slider/IMG_4200\ 1.png');
     background-repeat: no-repeat;
@@ -40,15 +61,11 @@
 
 }
 
-.swiper-slide-2 {
-    width: 361px;
+
+
+.gallery__block-2 {
+    
     height: 769px;
-
-}
-
-.box-2 {
-    width: 361px;
-    height: 584px;
     background-image: url('../../images/slider/для\ маленьких\ картин\ 1.png');
     background-repeat: no-repeat;
     display: flex;
@@ -57,120 +74,55 @@
 }
 
 
-.swiper-slide-3 {
-    width: 606px;
-    height: 817px;
 
-}
 
-.box-3 {
-    width: 586px;
-    height: 584px;
-    background-image: url("../../images/slider/Глава\ \(4\)\ 2.png");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat;
-}
 
-.swiper-slide-4 {
-    width: 361px;
-    height: 767px;
-}
-
-.box-4 {
-    background-image: url('../../images/slider/Основа.png');
-    width: 361px;
-    height: 584px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat
-}
-
-.swiper-slide-5 {
-    width: 320px;
+.gallery__block-3 {
+   
     height: 771px;
-
-}
-
-.box-5 {
-    background-image: url('../../images/slider/Глава\ \(3\)\ 1.png');
-    width: 163px;
-    height: 607px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat
-}
-
-
-
-.swiper-slide-6 {
-    width: 327px;
-    height: 770px;
-
-}
-
-.box-6 {
-    width: 256px;
-    height: 587px;
-    background-image: url('../../images/slider/IMG_4200\ 1.png');
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat;
-}
-
-.swiper-slide-7 {
-    width: 361px;
-    height: 769px;
-}
-
-.box-7 {
-    width: 361px;
-    height: 584px;
-    background-image: url('../../images/slider/для\ маленьких\ картин\ 1.png');
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.swiper-slide-8 {
-    width: 606px;
-    height: 817px;
-}
-
-.box-8 {
-    width: 586px;
-    height: 584px;
     background-image: url("../../images/slider/Глава\ \(4\)\ 2.png");
     display: flex;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
+    height: 817px;
 
 }
 
-.swiper-slide-9 {
-    width: 361px;
+
+
+.gallery__block-4 {
+   
     height: 767px;
-}
-
-.box-9 {
     background-image: url('../../images/slider/Основа.png');
-    width: 361px;
-    height: 584px;
+
     display: flex;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat
 }
 
-.slider-title {
+
+
+.gallery__block-5 {
+  
+    height: 771px;
+ background-image: url('../../images/slider/Глава\ \(3\)\ 1.png');
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat
+}
+
+
+
+
+
+.swiper-slider-active {
+    transform: scale(1.2);
+}
+
+.gallery__title {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -181,7 +133,7 @@
 
 }
 
-.slider-date {
+.gallery__period {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -190,7 +142,7 @@
     text-align: center;
 }
 
-.slider-price {
+.gallery-price {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -200,7 +152,7 @@
     color: #3D3D3D;
 }
 
-.slider-buy {
+.gallery-buy {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
