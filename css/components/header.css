@@ -5,11 +5,9 @@
     /*border: 1px;
     border-style: solid;
     border-color: red;*/
-
 }
 
 .header__wrapper {
-
     display: flex;
     height: 81px;
     background-color: #272727;
@@ -43,8 +41,6 @@
     color: #FFFFFF;
     text-decoration: none;
     padding: 30px;
-
-
 }
 
 
@@ -52,7 +48,6 @@
     background-image: url('../../images/header/Ellipse\ 62.png');
     background-repeat: no-repeat;
     background-position: center 60px;
-
 }
 
 .baner {

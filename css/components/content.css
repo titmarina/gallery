@@ -9,14 +9,11 @@
     font-size: 200px;
     line-height: 220px;
     text-align: center;
-
 }
 
 .Painting__painting {
     display: block;
     margin: auto;
-
-
 }
 
 .Painting-title {
@@ -27,7 +24,6 @@
     font-size: 30px;
     line-height: 30px;
     text-align: center;
-
 }
 
 .Painting__price {
@@ -37,7 +33,6 @@
     font-size: 40px;
     line-height: 60px;
     text-align: center;
-
 }
 
 .Painting__buy {
@@ -64,8 +59,6 @@
     background: #2C22AF;
 }
 
-
-
 .philosophy__title {
     font-family: 'Noto Serif';
     font-style: normal;
@@ -74,7 +67,6 @@
     line-height: 210px;
     margin-left: 53px;
     margin-top: -576px;
-
 }
 
 .philosophy__img {
@@ -91,8 +83,7 @@
     margin-left: 53px;
     width: 1280px;
     text-align: justify;
-    
-}
+ }
 
 .philosophy__text--landscapes {
     font-family: 'Poppins';
@@ -104,8 +95,6 @@
     margin-right: 60px;   
     margin-top: 23px;
     margin-left: 53px;
-    
-    
 }
     
 
@@ -157,5 +146,4 @@
 .philosophy__img-2 {
     float: right;
     margin: 1px 300px 1px 130px;
-
 }

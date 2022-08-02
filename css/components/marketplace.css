@@ -14,18 +14,15 @@
     color: #FFFFFF;
     margin-top: 569px;
     margin-left: -610px;
-
-
 }
 
 .marketplace__baner-content {
    display: flex;
-
-}
+    }
 
 .marketplace__baner-text{
     width: 1024px;
-height: 127px;
+    height: 127px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
