@@ -2,9 +2,7 @@ new Swiper('.swiper-marketplace', {
     // Optional parameters
     loop: true,
     direction: 'horizontal',
-    slidesPerView: 6,
-    spaceBetween: 30,
-    centeredSlides: true,
+    
 
   
     // If we need pagination

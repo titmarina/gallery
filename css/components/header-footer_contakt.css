@@ -1,35 +1,38 @@
+.contacts {
+    justify-content: space-around;
+    margin-top: 17px;
+    width: 375px;
+    height: 81px;
+    display: flex;
+
+}
 .border {
     position: absolute;
+    margin-left: -215px;
+    margin-top: 22px;
     width: 39px;
     height: 0px;
-    left: 1609px;
-    top: 39px;
     border: 2px solid rgba(255, 255, 255, 0.3);
     transform: rotate(90deg);
 }
 
-.header__contacts-reiting {
+.contacts-reiting {
     background-image: url('../../images/header/love.svg');
-    position: absolute;
-    background-repeat: no-repeat;
+     background-repeat: no-repeat;
     width: 50px;
     height: 50px;
-    left: 1563px;
-    top: 17px;
     background-color: black;
     cursor: pointer;
 }
 
-.header__contacts-reiting:hover {
+.contacts-reiting:hover {
     background-image: url('../../images/header/lovehover.svg');
 }
 
 .contacts-facebook {
-    position: absolute;
-    width: 46px;
+     width: 46px;
     height: 46px;
-    left: 1646px;
-    top: 18px;
+    
 }
 
 .contacts-facebook:hover {
@@ -37,12 +40,9 @@
 }
 
 .contacts-tik-tok {
-    position: absolute;
     width: 46px;
     height: 46px;
-    left: 1702px;
-    top: 18px;
-}
+    }
 
 .contacts-tik-tok:hover {
     background-image: url('../../images/header/tik\ tokhover.svg');
@@ -50,11 +50,9 @@
 
 
 .contacts-instagram {
-    position: absolute;
-    width: 46px;
+   width: 46px;
     height: 46px;
-    left: 1758px;
-    top: 18px;
+    
 }
 
 .contacts-instagram:hover {
@@ -62,11 +60,9 @@
 }
 
 .contacts-youtube {
-    position: absolute;
-    width: 46px;
+     width: 46px;
     height: 46px;
-    left: 1814px;
-    top: 18px;
+    
 }
 
 .contacts-youtube:hover {

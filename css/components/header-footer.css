@@ -14,24 +14,24 @@
 }
 
 
-.header__logo {
+.logo {
     margin: 17px;
 }
 
 
 
-.header__navigation-list {
+.navigation-list {
     display: flex;
-    width: 1220px;
+    width: 1140px;
     height: 20px;
     list-style-type: none;
-    margin-left: 107px;
+    margin-left: 67px;
     margin-top: 31px;
 }
 
 
 
-.header__navigation-link {
+.navigation-link {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -44,7 +44,7 @@
 }
 
 
-.header__navigation-link:hover {
+.navigation-link:hover {
     background-image: url('../../images/header/Ellipse\ 62.png');
     background-repeat: no-repeat;
     background-position: center 60px;
