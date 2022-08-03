@@ -120,6 +120,12 @@
     color: #4137D0;
 }
 
+.reiting {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
 /*.slider-line {
  width: 23px;
 height: 0px;

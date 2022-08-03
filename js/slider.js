@@ -28,8 +28,8 @@ new Swiper('.gallery__swiper', {
 
     // Navigation arrows
     navigation: {
-        nextEl: '.swiper-button-next-2',
-        prevEl: '.swiper-button-prev-2',
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
     },
     pagination: {
         el: '.swiper-pagination',
