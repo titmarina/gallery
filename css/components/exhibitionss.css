@@ -1,0 +1,26 @@
+.header__wrapper-Exhibitions {
+    display: flex;
+    height: 127px;
+    background-color: #272727;
+}
+
+.header__border {
+    width: 1920px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    margin-top: -46px;
+}
+
+.link_path {
+    margin-left: 60px;
+}
+
+.link {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+text-decoration: none;
+
+}
