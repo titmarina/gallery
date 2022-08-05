@@ -1,4 +1,4 @@
-.contacts {
+.socials {
     justify-content: space-around;
     margin-top: 17px;
     width: 375px;
@@ -16,7 +16,7 @@
     transform: rotate(90deg);
 }
 
-.contacts-reiting {
+.socials-reiting {
     background-image: url('../../images/header/love.svg');
      background-repeat: no-repeat;
     width: 50px;
@@ -25,46 +25,46 @@
     cursor: pointer;
 }
 
-.contacts-reiting:hover {
+.socials-reiting:hover {
     background-image: url('../../images/header/lovehover.svg');
 }
 
-.contacts-facebook {
+.socials-facebook {
      width: 46px;
     height: 46px;
     
 }
 
-.contacts-facebook:hover {
+.socials-facebook:hover {
     background-image: url('../../images/header/facebookhover.svg');
 }
 
-.contacts-tik-tok {
+.socials-tik-tok {
     width: 46px;
     height: 46px;
     }
 
-.contacts-tik-tok:hover {
+.socials-tik-tok:hover {
     background-image: url('../../images/header/tik\ tokhover.svg');
 }
 
 
-.contacts-instagram {
+.socials-instagram {
    width: 46px;
     height: 46px;
     
 }
 
-.contacts-instagram:hover {
+.socials-instagram:hover {
     background-image: url('../../images/header/insthover.svg');
 }
 
-.contacts-youtube {
+.socials-youtube {
      width: 46px;
     height: 46px;
     
 }
 
-.contacts-youtube:hover {
+.socials-youtube:hover {
     background-image: url('../../images/header/you\ tubehover.svg');
 }

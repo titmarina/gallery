@@ -59,7 +59,7 @@
     background: #2C22AF;
 }
 
-.philosophy__title {
+.desc__title {
     font-family: 'Noto Serif';
     font-style: normal;
     font-weight: 400;
@@ -69,11 +69,11 @@
     margin-top: -576px;
 }
 
-.philosophy__img {
+.desc__decoration{
     margin-left: 1219px;
 }
 
-.philosophy__text {
+.desc__text {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -85,7 +85,7 @@
     text-align: justify;
  }
 
-.philosophy__text--landscapes {
+.desc__text--landscapes {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -99,12 +99,12 @@
     
 
 
-.philosophy__img-1 {
+.desc__img-1 {
     float: left;
     margin: 41px 47px 50px 53px;
 }
 
-.philosophy__title--subtitle {
+.desc__title--subtitle {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -140,10 +140,11 @@
 }
 
 .bloc-content {
+   
     margin-top: 119px;
 }
 
-.philosophy__img-2 {
+.desc__img-2 {
     float: right;
     margin: 1px 300px 1px 130px;
 }

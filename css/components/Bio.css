@@ -72,15 +72,11 @@
 
 }
 
-.biography {
-    height: 3000px;
-}
-
 .baner_bio {
     background-image: url('../../images/Bio/bg\ \(1\).png');
     background-repeat: no-repeat;
     height: 1225px;
-    margin-top: -80px;
+    margin-top: -435px;
 }
 
 .description-title {
@@ -128,9 +124,7 @@
 }
 
 .title {
-    position: absolute;
-    bottom: 80px;
-    margin: 60px;
+    margin: 61px;
     width: 1193px;
     height: 253px;
 }
@@ -147,11 +141,17 @@
 
 .video {
     float: left;
-    margin: 10px 97px 106px 156px;
+    margin: -85px 97px 40px 156px;
 }
 
-.fon {
-    background-image: url('../../images/Bio/circe.png');
+
+
+.desc_content {
+margin: 170px 61px 0;
+}
+
+.biography__decoration {
+    background: url('../../images/Bio/circe.png');
     background-repeat: no-repeat;
     background-position: right;
 }
