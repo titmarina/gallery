@@ -1,6 +1,5 @@
 .header {
     width: 1920px;
-    height: 1430px;
     margin: 0 auto;
     /*border: 1px;
     border-style: solid;
@@ -13,23 +12,19 @@
     background-color: #272727;
 }
 
-
 .logo {
     margin: 17px;
 }
 
-
-
 .navigation-list {
     display: flex;
+    justify-content: space-around;
     width: 1140px;
     height: 20px;
     list-style-type: none;
     margin-left: 67px;
     margin-top: 31px;
 }
-
-
 
 .navigation-link {
     font-family: 'Poppins';
@@ -42,7 +37,6 @@
     text-decoration: none;
     padding: 30px;
 }
-
 
 .navigation-link:hover {
     background-image: url('../../images/header/Ellipse\ 62.png');

@@ -1,0 +1,157 @@
+.header__wrapper-bio {
+    display: flex;
+    height: 127px;
+    background-color: #272727;
+}
+
+.header__border {
+    width: 1920px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    margin-top: -46px;
+}
+
+.link_path {
+    margin-left: 60px;
+    margin-top: 12px;
+}
+
+.link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+
+.baner-bio {
+    height: 322px;
+    background-image: url('../../images/Bio/bg.png');
+    background-repeat: no-repeat;
+
+
+}
+
+.header__title--BIO {
+    padding: 60px;
+    margin-top: -350px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 180px;
+    line-height: 220px;
+    color: #FFFFFF;
+    text-shadow: -0 -2px 0 #000000,
+        0 -2px 0 #000000,
+        -0 2px 0 #000000,
+        0 2px 0 #000000,
+        -2px -0 0 #000000,
+        2px -0 0 #000000,
+        -2px 0 0 #000000,
+        2px 0 0 #000000,
+        -1px -2px 0 #000000,
+        1px -2px 0 #000000,
+        -1px 2px 0 #000000,
+        1px 2px 0 #000000,
+        -2px -1px 0 #000000,
+        2px -1px 0 #000000,
+        -2px 1px 0 #000000,
+        2px 1px 0 #000000,
+        -2px -2px 0 #000000,
+        2px -2px 0 #000000,
+        -2px 2px 0 #000000,
+        2px 2px 0 #000000,
+        -2px -2px 0 #000000,
+        2px -2px 0 #000000,
+        -2px 2px 0 #000000,
+        2px 2px 0 #000000;
+
+
+}
+
+.biography {
+    height: 3000px;
+}
+
+.baner_bio {
+    background-image: url('../../images/Bio/bg\ \(1\).png');
+    background-repeat: no-repeat;
+    height: 1225px;
+    margin-top: -80px;
+}
+
+.description-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 35px;
+    color: #292929;
+    transform: rotate(-0.01deg);
+
+}
+
+.description-subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-shadow: -0 -2px 0 #000000,
+        0 -2px 0 #000000,
+        -0 2px 0 #000000,
+        0 2px 0 #000000,
+        -2px -0 0 #000000,
+        2px -0 0 #000000,
+        -2px 0 0 #000000,
+        2px 0 0 #000000,
+        -1px -2px 0 #000000,
+        1px -2px 0 #000000,
+        -1px 2px 0 #000000,
+        1px 2px 0 #000000,
+        -2px -1px 0 #000000,
+        2px -1px 0 #000000,
+        -2px 1px 0 #000000,
+        2px 1px 0 #000000,
+        -2px -2px 0 #000000,
+        2px -2px 0 #000000,
+        -2px 2px 0 #000000,
+        2px 2px 0 #000000,
+        -2px -2px 0 #000000,
+        2px -2px 0 #000000,
+        -2px 2px 0 #000000,
+        2px 2px 0 #000000;
+}
+
+.title {
+    position: absolute;
+    bottom: 80px;
+    margin: 60px;
+    width: 1193px;
+    height: 253px;
+}
+
+.content {
+    margin-top: 54px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #535353;
+}
+
+.video {
+    float: left;
+    margin: 10px 97px 106px 156px;
+}
+
+.fon {
+    background-image: url('../../images/Bio/circe.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
