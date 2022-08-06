@@ -80,7 +80,7 @@
 }
 
 .gallery__title {
-     font-family: 'Poppins';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -123,7 +123,7 @@
 .reiting {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 /*.slider-line {
@@ -134,4 +134,25 @@ top: 2085px;
 
 border: 2px solid #3D3D3D;
 transform: rotate(90deg);
+}*/
+
+
+.swiper-pagination {
+    bottom: 10px;
+    width: 129px;
+    height: 39px;
+    left: 897px;
+    border: 1px solid #E9E9E9;
+    border-radius: 150px;
 }
+
+
+.swiper-pagination
+
+ {
+    bottom: 10px;
+    left: 897px;
+   
+}
+
+.swiper-pagination-bullet {}
