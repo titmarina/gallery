@@ -11,25 +11,11 @@
     margin: 100px auto;
 }
 
-.swiper-button-next:after,
-.swiper-button-prev:after {
-    display: none;
-}
 
-.swiper-button-prev {
-    left: -50px;
-}
-
-.swiper-button-next {
-    right: -50px;
-}
-
-.swiper-pagination-bullets {
-    width: 10px;
-    height: 10px;
-    margin: 0;
-    opacity: 1;
-}
+.swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+  }
 
 
 

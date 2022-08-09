@@ -1,4 +1,9 @@
 .wrapper-marketplace {
-    border: solid;
-    border-color: aqua;
+    margin-top: 240px;
+}
+
+
+
+.swiper-wrapper-marketplace {
+margin: 5px;
 }

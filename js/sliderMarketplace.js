@@ -1,7 +1,10 @@
-new Swiper('.swiper-marketplace', {
+new Swiper('.marketplace-swiper', {
     // Optional parameters
     loop: true,
     direction: 'horizontal',
+    slidesPerView: 5,
+    spaceBetween: 66,
+    centeredSlides: true,
     
 
   
@@ -18,6 +21,7 @@ new Swiper('.swiper-marketplace', {
   
     // And if we need scrollbar
     scrollbar: {
-      el: '.swiper-scrollbar',
+      el: ".swiper-pagination",
+      clickable: true,
     },
   });
