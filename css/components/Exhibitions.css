@@ -1,9 +1,29 @@
-.slider-title {
-    font-family: 'Noto Serif';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 200px;
-    line-height: 210px;
-     text-align: center;
-     color: #272727;
+.Share {
+    width: 657px;
+    height: 80px;
+    margin: 40px 1203px 90px 60px;
 }
+
+
+
+.share__icons {
+    width: 657px;
+    height: 80px;
+    background: #4137D0;
+    border-radius: 150px;
+    display: flex;
+    flex-wrap: wrap;
+   
+    align-items: flex-start;
+}
+
+
+.elips {
+    margin: 5px 581px 5px 6px;
+
+}
+
+.mask-group {
+    margin: -57px 24px;
+}
+

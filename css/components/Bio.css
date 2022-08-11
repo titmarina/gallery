@@ -151,7 +151,7 @@ margin: 170px 61px 0;
 }
 
 .biography__decoration {
-    background: url('../../images/Bio/circe.png');
-    background-repeat: no-repeat;
-    background-position: right;
+    position: absolute;
+    z-index: -1;
+    left: 52%;
 }

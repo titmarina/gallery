@@ -9,6 +9,7 @@
     font-size: 200px;
     line-height: 220px;
     text-align: center;
+    margin: 56px 85px 40px 85px;
 }
 
 .Painting__painting {
@@ -17,7 +18,7 @@
 }
 
 .Painting-title {
-    margin-top: 60px;
+    margin: 66px 606px 22px 597px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -36,8 +37,8 @@
 }
 
 .Painting__buy {
-    display: block;
-    margin: auto;
+    
+    margin: 43px 852px 48px 925px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;

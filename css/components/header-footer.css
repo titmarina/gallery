@@ -1,9 +1,5 @@
 .header {
-    width: 1920px;
-    margin: 0 auto;
-    /*border: 1px;
-    border-style: solid;
-    border-color: red;*/
+    
 }
 
 .header__wrapper {
@@ -13,7 +9,7 @@
 }
 
 .logo {
-    margin: 17px;
+    margin: 17px 0 23.7px 60px;
 }
 
 .navigation-list {
@@ -46,6 +42,6 @@
 
 .baner {
     background-image: url('../../images/header/bg.png');
-    height: 1401.87px;
+    
     background-repeat: no-repeat;
 }

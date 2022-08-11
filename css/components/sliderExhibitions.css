@@ -1,3 +1,45 @@
-.exhibitions-swiper {
-    border: solid;
+.slider-title {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 210px;
+     text-align: center;
+     color: #272727;
+     margin: 0 230px 23px 230px;
 }
+
+.Exhibitions__title {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 35px;
+
+}
+
+.Exhibitions__subtitle {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 35px;
+
+}
+
+.Exhibitions__subtitle-second {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #4137D0;
+
+}
+
+.pagination-exhibitions {
+    width: 6%;
+    bottom: 10px;
+}
+
+
