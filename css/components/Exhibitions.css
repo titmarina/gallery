@@ -1,29 +1,48 @@
 .Share {
-    width: 657px;
-    height: 80px;
     margin: 40px 1203px 90px 60px;
 }
 
 
 
 .share__icons {
-    width: 657px;
     height: 80px;
     background: #4137D0;
     border-radius: 150px;
     display: flex;
-    flex-wrap: wrap;
-   
-    align-items: flex-start;
+    
 }
 
 
 .elips {
-    margin: 5px 581px 5px 6px;
+    margin: 5px;
+    width: 70px;
+    position: relative;
+    height: 70px;  
 
 }
 
-.mask-group {
-    margin: -57px 24px;
+.title-share{
+    margin: 32px 54px 32px 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
 }
 
+
+.contacts-share {
+    display: flex;
+}
+
+.contact-social {
+    margin: 6px 0px 0px -14px;
+}
+
+.mask-group{    margin-top: 27px;
+    position: absolute;
+    margin-left: -56px;
+}
