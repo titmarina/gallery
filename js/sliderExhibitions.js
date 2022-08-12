@@ -4,21 +4,20 @@ const swiper = new Swiper('.exhibitions-swiper', {
     loop: true,
     slidesPerView: 3,
     spaceBetween: 21,
-  
-    // If we need pagination
+    
     pagination: {
-      el: '.swiper-pagination',
+      el: ".swiper-pagination",
+      type: "progressbar",
     },
-  
-    // Navigation arrows
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
+    
   
     // And if we need scrollbar
     scrollbar: {
         el: ".swiper-pagination",
-        clickable: true,
+        dynamicBullets: true,
     },
   });

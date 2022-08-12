@@ -11,8 +11,7 @@
 }
 
 .link_path {
-    margin-left: 60px;
-    margin-top: 12px;
+    margin: 12px 1739px 10px 60px;
 }
 
 .link {
@@ -124,7 +123,7 @@
 }
 
 .title {
-    margin: 61px;
+    margin: 169px 1405px 54px 60px;
     width: 1193px;
     height: 253px;
 }
@@ -153,5 +152,19 @@ margin: 170px 61px 0;
 .biography__decoration {
     position: absolute;
     z-index: -1;
-    left: 52%;
+    left: 51%;
+    width: 927px;
+    height: 470px;
+
+}
+
+
+.desc__text--landscapes {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #7C6E6E;
+    margin: 17px 300px 89px 61px;
 }

@@ -22,6 +22,6 @@ new Swiper('.marketplace-swiper', {
     // And if we need scrollbar
     scrollbar: {
       el: ".swiper-pagination",
-      clickable: true,
+      dynamicBullets: true,
     },
   });
