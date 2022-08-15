@@ -1,0 +1,105 @@
+.header__mobile {
+   display: none;
+}
+
+
+.header__navigation-list-item-mobile {
+   width: 340px;
+   left: 0px;
+   line-height: 32px;
+   border: 1px solid #F5F5F5;
+
+}
+
+.header__navigation-link-mobiletitle {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 18px;
+   color: #3D3D3D;
+   text-decoration: none;
+   line-height: 47px;
+}
+
+.header__navigation-link-mobile {
+   text-decoration: none;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 18px;
+   color: #3D3D3D;
+}
+
+.header__navigation-list--mobile {
+   display: block;
+}
+
+.header__mobile-menu {
+    width: 374px;
+   height: 4938px;
+   bottom: 0;
+   transform: translateX(-1145px);
+   background-color: #fff;
+   transition: transform .3s;
+}
+
+.header__navigation-list-item--mobile {
+   padding: 33px 0px 0px 20px;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+   .header__mobile {
+      display: block;
+   }
+
+   .navigation-list {
+      display: none;
+   }
+
+   .header__navigation-list-item-mobile {
+      display: block;
+   }
+
+   .body{
+      max-width: 768px;
+      width: 100%;
+      margin: 0 auto;
+   }
+
+   .socials {
+      justify-content: space-around;
+      margin: 10px 60px 14px 362px;
+      width: 375px;
+      height: 81px;
+      display: flex;
+   }
+
+   .socials-reiting_mobiles {
+      background-image: url('../../images/mobiles/love.svg');
+       background-repeat: no-repeat;
+      width: 44px;
+      height: 44px;
+      cursor: pointer;
+      border: none;
+      margin: 20px 40px 0 20px;
+  }
+
+
+  .socials-facebook_mobiles, .socials-tik-tok_mobiles, .socials-instagram_mobiles, .socials-youtube_mobiles{
+   width: 44px;
+   height: 44px;
+   margin: 7px;
+   list-style-type: none;
+   cursor: pointer;
+  }
+
+}
+
+
+
+
