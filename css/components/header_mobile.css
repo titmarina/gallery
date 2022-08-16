@@ -2,34 +2,78 @@
    display: none;
 }
 
-
-.header__navigation-list-item-mobile {
-   width: 340px;
-   left: 0px;
-   line-height: 32px;
-   border: 1px solid #F5F5F5;
-
+.header__mobile-top {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 18px;
+   background: #EEEEEE;
 }
 
-.header__navigation-link-mobiletitle {
-   font-family: 'Poppins';
-   font-style: normal;
-   font-weight: 600;
+.header_humburger {
+   background: none;
+   border: none;
    font-size: 18px;
-   line-height: 18px;
-   color: #3D3D3D;
-   text-decoration: none;
-   line-height: 47px;
 }
 
-.header__navigation-link-mobile {
-   text-decoration: none;
-   font-family: 'Poppins';
-   font-style: normal;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 18px;
-   color: #3D3D3D;
+.header__search-input-mobile {
+   flex: 1 1 auto;
+   width: 100%;
+}
+
+.header__search-btn {
+   background: none;
+   border: none;
+   color: var(--red-darken-1);
+}
+
+.header__search-mobile-form {
+   display: none;
+}
+
+.header__search-mobile-form--active {
+   display: block;
+   flex: 1 1 auto;
+}
+
+.header__mobile-logo-wrapper {
+   text-align: center;
+   margin-bottom: 34px;
+   margin-top: 28px;
+}
+
+.header__description--mobile {
+   letter-spacing: 0.12em;
+   font-size: 10px;
+}
+
+.header__mobile-panel {
+   display: flex;
+}
+
+.header__catalog--mobile {
+   transform: translateY(0);
+   min-width: 153px;
+   height: 54px;
+   padding: 0 17px;
+}
+
+.header__controls-icon--mobile {
+   margin-right: 0;
+   margin-left: 9px;
+   border: 2px solid #F5F5F5;
+   width: 54px;
+   height: 54px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.header__controls-count--mobile {
+   top: 0;
+   right: 3px;
+   transform: translate(0, 0);
 }
 
 .header__navigation-list--mobile {
@@ -37,69 +81,29 @@
 }
 
 .header__mobile-menu {
-    width: 374px;
-   height: 4938px;
+   position: fixed;
+   top: 0;
    bottom: 0;
-   transform: translateX(-1145px);
+   width: 207px;
+   transform: translateX(-207px);
    background-color: #fff;
    transition: transform .3s;
 }
 
 .header__navigation-list-item--mobile {
-   padding: 33px 0px 0px 20px;
-
+   padding: 15px 30px 15px 30px;
 }
 
+.header__mobile-menu {
+   z-index: var(--header-menu-z-index);
+}
 
+.header__mobile-menu--active {
+   transform: translateX(0);
+}
 
 @media screen and (max-width: 768px) {
    .header__mobile {
-      display: block;
+       display: block;
    }
-
-   .navigation-list {
-      display: none;
-   }
-
-   .header__navigation-list-item-mobile {
-      display: block;
-   }
-
-   .body{
-      max-width: 768px;
-      width: 100%;
-      margin: 0 auto;
-   }
-
-   .socials {
-      justify-content: space-around;
-      margin: 10px 60px 14px 362px;
-      width: 375px;
-      height: 81px;
-      display: flex;
-   }
-
-   .socials-reiting_mobiles {
-      background-image: url('../../images/mobiles/love.svg');
-       background-repeat: no-repeat;
-      width: 44px;
-      height: 44px;
-      cursor: pointer;
-      border: none;
-      margin: 20px 40px 0 20px;
-  }
-
-
-  .socials-facebook_mobiles, .socials-tik-tok_mobiles, .socials-instagram_mobiles, .socials-youtube_mobiles{
-   width: 44px;
-   height: 44px;
-   margin: 7px;
-   list-style-type: none;
-   cursor: pointer;
-  }
-
 }
-
-
-
-
