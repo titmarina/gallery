@@ -67,3 +67,8 @@ font-size: 200px;
 line-height: 220px;
 
 }
+
+.baner {
+    background: url('../../images/header/bg.png');
+     background-repeat: no-repeat;
+}
