@@ -37,28 +37,6 @@
    flex: 1 1 auto;
 }
 
-.header__mobile-logo-wrapper {
-   text-align: center;
-   margin-bottom: 34px;
-   margin-top: 28px;
-}
-
-.header__description--mobile {
-   letter-spacing: 0.12em;
-   font-size: 10px;
-}
-
-.header__mobile-panel {
-   display: flex;
-}
-
-.header__catalog--mobile {
-   transform: translateY(0);
-   min-width: 153px;
-   height: 54px;
-   padding: 0 17px;
-}
-
 .header__controls-icon--mobile {
    margin-right: 0;
    margin-left: 9px;
@@ -85,7 +63,7 @@
    top: 0;
    bottom: 0;
    width: 207px;
-   transform: translateX(-207px);
+   transform: translateX(0px);
    background-color: #fff;
    transition: transform .3s;
 }
