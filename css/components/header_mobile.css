@@ -2,98 +2,115 @@
    display: none;
 }
 
-/*.header__navigation-link--mobiletitle {
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 18px;
-color: #3D3D3D;
-text-decoration: none;
+.dropbtn {
+   background-color: #272727;
+   margin: 14px 14px 14px 44px;
+   font-size: 16px;
+   border: none;
 }
 
-.header__navigation-list--mobile {
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f1f1f1;
+   height: 8068px;
+   min-width: 364px;
+   transform: translateX(-839px);
+}
+
+.header__navigation-link-mobile {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
    display: block;
-   margin: 47px 296px 19px 20px;
+
 }
 
-.header__navigation-link-mobile{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 18px;
-color: #3D3D3D;
-text-decoration: none;
-cursor: pointer;
-}
-.header__mobile-menu {
-   position: fixed;
-   top: 0;
-   bottom: 0;
-   width: 374px;
-   transform: translateX(0px);
-   background-color: #fff;
-   transition: transform .3s;
+.header__navigation-link-mobile:hover {
+   background-color: #ddd;
 }
 
-.header__navigation-list-item--mobile {
-   margin: 33px 296px 31px 20px;
+.dropdown:hover .dropdown-content {
+   display: block;
 }
 
-.header__mobile-menu {
-   z-index: var(--header-menu-z-index);
+.dropdown:hover .dropbtn {
+   background-color: #272727;
 }
-*/
 
+.header__navigation-link-mobile {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 18px;
+   color: #3D3D3D;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.header__navigation-link--mobiletitle {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 18px;
+   color: #3D3D3D;
+   text-decoration: none;
+}
+
+.socials__mobile {
+   display: flex;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.socials-reiting-mobiles {
+   background-image: url('../../images/mobiles/love.svg');
+   background-repeat: no-repeat;
+   width: 50px;
+   height: 50px;
+   cursor: pointer;
+   border: none;
+   margin: 20px;
+}
 
 @media screen and (max-width: 768px) {
+   .body {
+      max-width: 768px;
+      width: 100%;
+      margin: 0 auto;
+   }
+
    .header__mobile {
       display: block;
-   }
-
-   .dropbtn {
-      color: white;
-      padding: 16px;
-      font-size: 16px;
-      border: none;
-   }
-
-   .header__mobile {
       position: relative;
       display: inline-block;
    }
 
-   .dropdown-content {
+   .navigation {
       display: none;
-      position: absolute;
-      background-color: #f1f1f1;
-      height: 8068px;
-      min-width: 364px;
-
    }
 
+   .header__galley {}
 
-
-   .dropdown-content a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
+   .baner {
+      background-image: url('../../images/header/bg.png');
+      background-repeat: no-repeat;
    }
 
-   .dropdown-content a:hover {
-      background-color: #ddd;
+   .header__title {
+      font-family: 'Noto Serif';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 90px;
+      line-height: 90px;
+      color: #FFFFFF;
+      text-shadow: 0px 6px 40px rgba(0, 0, 0, 0.9);
    }
 
-
-   .dropdown:hover .dropdown-content {
-      display: block;
+   .socials {
+      margin: 9px 44px 9px 76px;
    }
-
-
-   .dropdown:hover .dropbtn {
-      background-color: #ddd;
-   }
-
 }
