@@ -5,4 +5,16 @@
     background-image: url('../../images/mobiles/maarcetmob.png');
     background-repeat: no-repeat;
 }
+
+.marketplace__baner-title {
+    font-size: 85px;
+line-height: 85px;
+margin: 327px 77px 456px 17px;
 }
+
+.marketplace__baner-text {
+    font-size: 14px;
+line-height: 22px;
+}
+}
+

@@ -62,12 +62,13 @@
     font-weight: 400;
     font-size: 200px;
     line-height: 210px;
-    margin-left: 53px;
-    margin-top: -576px;
+    margin: 48px 406px 0 53px;
 }
 
 .desc__decoration{
-    margin-left: 1219px;
+    margin: 0 60px 77px 1219px;
+    z-index: -1;
+    position: absolute;
 }
 
 .desc__text {
@@ -77,8 +78,8 @@
     font-size: 20px;
     line-height: 32px;
     color: #7C6E6E;
-    margin-left: 53px;
-    width: 1280px;
+    margin: 4px 520px 119px 59px;
+    
     text-align: justify;
  }
 

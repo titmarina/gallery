@@ -37,11 +37,11 @@
  .desc__text {
     font-size: 14px;
     line-height: 22px;
-    width: 100%;
+    margin: 14px 24px 56px 19px;
  }
 
  .desc__decoration {
-    margin: 19px 20px 26px 491px;
+    margin: 19px 20px 26px 421px;
     position: absolute;
     width: 350px;
     height: 350px;

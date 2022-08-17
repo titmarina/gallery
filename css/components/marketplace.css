@@ -12,8 +12,8 @@
     font-size: 200px;
     line-height: 210px;
     color: #FFFFFF;
-    margin-top: 569px;
-    margin-left: -610px;
+    margin: 573px 23px 0 59px;
+
 }
 
 .marketplace__baner-content {
@@ -22,13 +22,11 @@
 
 .marketplace__baner-text{
     width: 1024px;
-    height: 127px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 32px;
     color: #FFFFFF; 
-    margin-left: 438px;
-    margin-top: -334px;
+    margin: 96px 424px -177px 438px;
 }
