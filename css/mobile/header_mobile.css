@@ -4,9 +4,10 @@
 
 .dropbtn {
    background-color: #272727;
-   margin: 14px 14px 14px 44px;
+   margin: 10px 26px 14px 22px;
    font-size: 16px;
    border: none;
+
 }
 
 .dropdown-content {
@@ -39,10 +40,7 @@
 }
 
 .header__navigation-link-mobile {
-   font-family: 'Poppins';
-   font-style: normal;
-   font-weight: 500;
-   font-size: 16px;
+    font-size: 16px;
    line-height: 18px;
    color: #3D3D3D;
    text-decoration: none;
@@ -50,9 +48,6 @@
 }
 
 .header__navigation-link--mobiletitle {
-   font-family: 'Poppins';
-   font-style: normal;
-   font-weight: 600;
    font-size: 18px;
    line-height: 18px;
    color: #3D3D3D;
@@ -102,17 +97,16 @@
    }
 
    .header__title {
-      font-family: 'Noto Serif';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 90px;
+       font-size: 90px;
       line-height: 90px;
       color: #FFFFFF;
       text-shadow: 0px 6px 40px rgba(0, 0, 0, 0.9);
    }
 
    .socials {
-      margin: 9px 44px 9px 76px;
+      display: flex;
+      margin: 9px 22px 9px 76px;
+      justify-content: space-around;
    }
 
    .Share {
@@ -126,15 +120,10 @@
    }
 
    .title-share {
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 400;
       font-size: 20px;
       line-height: 16px;
       text-align: center;
-      text-decoration-line: underline;
-
-      color: #FFFFFF;
+      
    }
 
    .header__galley {
@@ -144,5 +133,13 @@
       background-image: url('../../images/mobiles/baner.png');
       background-repeat: no-repeat;
       width: 768px;
+   }
+
+   .container__gallery-title {
+      margin: 160px 0px 74px 20px;
+      font-weight: 400;
+      font-size: 85px;
+      line-height: 85px;
+      
    }
 }
