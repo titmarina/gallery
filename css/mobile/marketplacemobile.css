@@ -1,20 +1,37 @@
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
-.marketplace__baner {
-    margin: -265px 0 0 0;
-    background-image: url('../../images/mobiles/maarcetmob.png');
-    background-repeat: no-repeat;
-}
+    .marketplace__baner {
+        margin: -265px 0 0 0;
+        background-image: url('../../images/mobiles/maarcetmob.png');
+        background-repeat: no-repeat;
+        height: 955px;
+    }
 
-.marketplace__baner-title {
-    font-size: 85px;
-line-height: 85px;
-margin: 327px 77px 456px 17px;
-}
+    .marketplace__baner-title {
+        font-size: 85px;
+        line-height: 85px;
+        margin: 327px 77px 84px 17px;
+    }
 
-.marketplace__baner-text {
-    font-size: 14px;
-line-height: 22px;
-}
-}
+    .marketplace__baner-text {
+        display: none;
+    }
 
+    .marketplace__baner-content-mobile {
+        position: absolute;
+    }
+
+    .marketplace__baner-text-mobile {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin: 512px 44px 40px 20px;
+    }
+    
+    .wrapper-marketplace  {
+        margin: 9px 0px 6px 0px;
+    }
+}

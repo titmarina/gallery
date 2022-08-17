@@ -24,4 +24,14 @@ new Swiper('.marketplace-swiper', {
       el: ".swiper-pagination",
       dynamicBullets: true,
     },
+
+
+    breakpoints: {
+      768: {
+    slidesPerView: 4,
+    spaceBetween: 38,
+    centeredSlides: true,
+}},
+
+   
   });
