@@ -1,7 +1,3 @@
-.Painting {
-    height: 1860px;
-}
-
 .Painting__title {
     font-family: 'Noto Serif';
     font-style: normal;
@@ -93,9 +89,7 @@
     font-size: 20px;
     line-height: 32px;
     color: #7C6E6E;
-    margin-right: 60px;   
-    margin-top: 23px;
-    margin-left: 53px;
+    margin: 17px 300px 89px 61px;
 }
     
 
@@ -105,15 +99,14 @@
     margin: 41px 47px 50px 53px;
 }
 
-.desc__title--subtitle {
+.desc__title--subtitle, .desc__title--subtitle2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 45px;
     line-height: 35px;
     color: #FFFFFF;
-    margin-top: 90px;
-    margin-left: 53px;
+    margin: 19px 655px 23px 667px;
     text-shadow: 0 -2px 0 #000000,
         0 -2px 0 #000000,
         0 2px 0 #000000,
@@ -140,9 +133,41 @@
         2px 2px 0 #000000;
 }
 
+.desc__title--subtitle3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin:49px 338px 23px 59px;
+    text-shadow: 0 -2px 0 #000000,
+        0 -2px 0 #000000,
+        0 2px 0 #000000,
+        0 2px 0 #000000,
+        -2px 0 0 #000000,
+        2px 0 0 #000000,
+        -2px 0 0 #000000,
+        2px 0 0 #000000,
+        -1px -2px 0 #000000,
+        1px -2px 0 #000000,
+        -1px 2px 0 #000000,
+        1px 2px 0 #000000,
+        -2px -1px 0 #000000,
+        2px -1px 0 #000000,
+        -2px 1px 0 #000000,
+        2px 1px 0 #000000,
+        -2px -2px 0 #000000,
+        2px -2px 0 #000000,
+        -2px 2px 0 #000000,
+        2px 2px 0 #000000,
+        -2px -2px 0 #000000,
+        2px -2px 0 #000000,
+        -2px 2px 0 #000000,
+        2px 2px 0 #000000;
+}
 .bloc-content {
-   
-    margin-top: 119px;
+       margin-top: 119px;
 }
 
 .desc__img-2 {

@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px){
+
+.marketplace__baner {
+    margin: -265px 0 0 0;
+    background-image: url('../../images/mobiles/maarcetmob.png');
+    background-repeat: no-repeat;
+}
+}

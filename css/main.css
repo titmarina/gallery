@@ -15,6 +15,8 @@
 @import url('../css/components/sliderExhibitions.css');
 @import url('../css/components/Bio.css');
 @import url('../css/mobile/header_mobile.css');
+@import url('../css/mobile/contentmobile.css');
+@import url('../css/mobile/marketplacemobile.css');
 
 * {
     box-sizing: border-box;

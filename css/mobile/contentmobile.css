@@ -1,0 +1,85 @@
+@media screen and (max-width: 768px) {
+    
+    .Painting__title {
+    font-size: 85px;
+    line-height: 85px;
+ }
+
+ .Painting__painting {
+    width: 722.05px;
+    height: 536.73px;
+ }
+
+ .Painting-title {
+    margin: 48px 20px 13px 20px;
+    font-size: 14px;
+    line-height: 14px;
+ }
+
+ .Painting__price {
+    margin: 7px 20px 13px 20px;
+    font-size: 25px;
+    line-height: 28px
+ }
+
+ .Painting__buy {
+    margin: 17px 316px 13px 318px;
+    width: 134px;
+    height: 50px;
+ }
+
+ .desc__title {
+    font-size: 85px;
+    line-height: 85px;
+    margin: 56px 20px 14px 16px;
+ }
+
+ .desc__text {
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+ }
+
+ .desc__decoration {
+    margin: 19px 20px 26px 491px;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    z-index: -1;
+ }
+
+ .desc__img-1 {
+    width: 228px;
+    height: 242px;
+ }
+
+ .desc__text--landscapes {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 10px 24px 63px 15px;
+ }
+
+ .desc__title--subtitle {
+    font-size: 30px;
+    line-height: 35px;
+    margin: 56px 284px 10px 15px;
+ }
+
+ .desc__title--subtitle2 {
+    margin: 100px 187px 10px 23px;
+    font-size: 30px;
+line-height: 35px;
+ } 
+
+ .desc__title--subtitle3 {
+    font-size: 30px;
+line-height: 35px;
+margin: 31px 164px 11px 20px;
+ }
+
+ .desc__img-2 {
+    width: 229px;
+height: 229px;
+margin: 26px 25px 193px 30px;
+ }
+}
