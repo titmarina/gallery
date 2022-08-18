@@ -14,9 +14,7 @@
    display: none;
    position: absolute;
    background-color: #f1f1f1;
-   height: 8068px;
-   min-width: 364px;
-   transform: translateX(-839px);
+   transform: translateX(-676px);
 }
 
 .header__navigation-link-mobile {
@@ -32,7 +30,10 @@
 }
 
 .dropdown:hover .dropdown-content {
-   display: block;
+   z-index: 20;
+    display: block;
+    width: 374px;
+    height: 5867px;
 }
 
 .dropdown:hover .dropbtn {
@@ -55,7 +56,6 @@
 }
 
 .socials__mobile {
-   display: flex;
    display: flex;
    justify-content: space-around;
    align-items: center;
@@ -109,15 +109,7 @@
       justify-content: space-around;
    }
 
-   .Share {
-      margin: 39px 57px 60px 58px;
-   }
-
-   .share__icons {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-   }
+  
 
    .title-share {
       font-size: 20px;

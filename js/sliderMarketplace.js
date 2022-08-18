@@ -28,8 +28,8 @@ new Swiper('.marketplace-swiper', {
 
     breakpoints: {
       768: {
-    slidesPerView: 4,
-    spaceBetween: 38,
+    slidesPerView: 3,
+    spaceBetween: 10,
     centeredSlides: true,
 }},
 

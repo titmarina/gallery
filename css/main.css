@@ -18,6 +18,7 @@
 @import url('../css/mobile/contentmobile.css');
 @import url('../css/mobile/marketplacemobile.css');
 @import url('../css/mobile/Exhibitionsmobile.css');
+@import url('../css/mobile/footermobile.css');
 * {
     box-sizing: border-box;
 }

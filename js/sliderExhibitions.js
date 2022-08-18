@@ -20,4 +20,11 @@ const swiper = new Swiper('.exhibitions-swiper', {
         el: ".swiper-pagination",
         dynamicBullets: true,
     },
+
+    breakpoints: {
+      768: {
+    slidesPerView: 2,
+    spaceBetween: 20,
+}},
+
   });

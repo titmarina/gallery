@@ -6,4 +6,28 @@ line-height: 85px;
 margin: 0px 20px 27px 20px;
 }
 
+.Exhibitions__title {
+   font-size: 20px;
+line-height: 26px;
+}
+
+.Exhibitions__subtitle {
+   font-size: 16px;
+line-height: 26px;
+}
+
+.Exhibitions__subtitle-second {
+   font-size: 18px;
+line-height: 30px;
+}
+
+.Share {
+   margin: 39px 57px 60px 58px;
+}
+
+.share__icons {
+   display: flex;
+   justify-content: space-between;
+   
+}
 }
