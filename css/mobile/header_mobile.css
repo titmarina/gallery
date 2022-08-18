@@ -15,6 +15,8 @@
    position: absolute;
    background-color: #f1f1f1;
    transform: translateX(-676px);
+   margin-top: -76px;
+
 }
 
 .header__navigation-link-mobile {
@@ -26,7 +28,7 @@
    color: #3D3D3D;
    text-decoration: none;
    cursor: pointer;
-   padding: 12px 16px;
+   margin: 47px 297px 31px 20px;
    text-decoration: none;
    display: block;
 
@@ -40,7 +42,7 @@
    z-index: 20;
     display: block;
     width: 374px;
-    height: 5867px;
+    height: 5944px;
 }
 
 .dropdown:hover .dropbtn {
@@ -55,6 +57,7 @@
    line-height: 18px; 
    color: #3D3D3D;
    text-decoration: none;
+   margin: 33px 297px -10px 20px;
 }
 
 .socials__mobile {
@@ -71,6 +74,10 @@
    cursor: pointer;
    border: none;
    margin: 20px;
+}
+
+.dropdown-content_menu {
+
 }
 
 @media screen and (max-width: 768px) {
@@ -103,6 +110,13 @@
       line-height: 90px;
       color: #FFFFFF;
       text-shadow: 0px 6px 40px rgba(0, 0, 0, 0.9);
+      padding: 35px;
+   }
+
+   .title__categories {
+      font-size: 20px;
+line-height: 28px;
+      margin: 9px 550px 200px 30px;
    }
 
    .socials {

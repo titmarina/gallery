@@ -3,11 +3,13 @@
     .Painting__title {
     font-size: 85px;
     line-height: 85px;
+    margin: 56px 20px 33px 20px;
  }
 
  .Painting__painting {
     width: 722.05px;
     height: 536.73px;
+    
  }
 
  .Painting-title {

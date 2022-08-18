@@ -2,11 +2,13 @@
     .footer {
         width: 768px;
 
+        
     }
 
     .footer-container {
         height: 267px;
         
+    background-color: #242424;
      
     }
 
