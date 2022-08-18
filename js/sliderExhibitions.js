@@ -25,6 +25,7 @@ const swiper = new Swiper('.exhibitions-swiper', {
       768: {
     slidesPerView: 2,
     spaceBetween: 20,
+    
 }},
 
   });
