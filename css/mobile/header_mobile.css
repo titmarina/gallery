@@ -98,7 +98,7 @@
       display: inline-block;
    }
 
-   .navigation {
+   .header__wrapper > .navigation > .navigation-list {
       display: none;
    }
 
