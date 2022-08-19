@@ -4,7 +4,7 @@
 
 .dropbtn {
    background-color: #272727;
-   margin: 10px 26px 14px 22px;
+   margin: 10px 13px 14px 22px;
    font-size: 16px;
    border: none;
 
@@ -76,9 +76,6 @@
    margin: 20px;
 }
 
-.dropdown-content_menu {
-
-}
 
 @media screen and (max-width: 768px) {
    .body {
@@ -92,7 +89,7 @@
    }
 
    .main {
-      width: 768px;
+      width: 100%;
    }
 
    .header__mobile {
@@ -135,7 +132,7 @@ line-height: 28px;
    }
 
    .header__galley {
-      width: 768px;
+      width: 100%;
    }
 
    .baner {

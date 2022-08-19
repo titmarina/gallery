@@ -6,6 +6,23 @@ new Swiper('.marketplace-swiper', {
   spaceBetween: 66,
   centeredSlides: true,
 
+  breakpoints: {
+    600:
+    {
+      slidesPerView: 2,
+      spaceBetween: 19,
+    },
+
+    650: {
+      slidesPerView: 3,
+      spaceBetween: 38,
+    },
+
+    768: {
+      slidesPerView: 5,
+      spaceBetween: 66,
+    }
+  },
 
 
   // If we need pagination
@@ -26,16 +43,12 @@ new Swiper('.marketplace-swiper', {
   },
 
 
-  breakpoints: {
-    1920: {
-      slidesPerView: 5,
-      spaceBetween: 66,
-    },
-      768: {
-      slidesPerView: 3,
-      spaceBetween: 10,
 
-    }
-  },
+  pagination: {
+    el: '.swiper-pagination',
+    dynamicBullets: true,
+
+  }
+
 
 });
