@@ -1,4 +1,6 @@
-
+.header__mobile {
+   display: none;
+}
 .dropbtn {
    background-color: #272727;
    margin: 10px 13px 14px 22px;
@@ -82,7 +84,7 @@
    }
 
    .header__container {
-      width: 100%;
+      max-width: 768px;
    }
 
   .navigation {
