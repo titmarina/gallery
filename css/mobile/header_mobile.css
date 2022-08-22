@@ -1,6 +1,3 @@
-.header__mobile {
-   display: none;
-}
 
 .dropbtn {
    background-color: #272727;
@@ -85,8 +82,12 @@
    }
 
    .header__container {
-      width: 768px;
+      width: 100%;
    }
+
+  .navigation {
+   display: none;
+  }
 
    .main {
       width: 100%;
@@ -98,11 +99,7 @@
       display: inline-block;
    }
 
-   .header__wrapper > .navigation > .navigation-list {
-      display: none;
-   }
-
-   .header__title {
+    .header__title {
       font-size: 90px;
       line-height: 90px;
       color: #FFFFFF;
@@ -118,10 +115,14 @@ line-height: 28px;
 
    .socials {
       display: flex;
-      margin: 9px 22px 9px 76px;
-      justify-content: space-around;
+      margin: 15px 0px 0px 50px;
+      justify-content: space-evenly;
    }
 
+   .socials-reiting::after {
+      width: 2px;
+      margin-left: 27px;
+  }
   
 
    .title-share {

@@ -2,10 +2,10 @@
     justify-content: space-around;
     margin: 18px 60px 17px 0px;
     width: 375px;
-    height: 81px;
     display: flex;
 
 }
+/*
 .border {
     position: absolute;
     margin: 21px 4px 0 -176px;
@@ -13,7 +13,7 @@
     height: 0px;
     border: 2px solid rgba(255, 255, 255, 0.3);
     transform: rotate(90deg);
-}
+}*/
 
 .socials-reiting {
     background-image: url('../../images/header/love.svg');
@@ -22,8 +22,19 @@
     height: 50px;
     background-color: black;
     cursor: pointer;
+    border-radius: 50%;
+    position: relative;
 }
 
+.socials-reiting::after 
+ {content:'';
+    width: 2px;
+    height: 46px;
+    background:  rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 2px;
+    margin-left: 29px;
+}
 .socials-reiting:hover {
     background-image: url('../../images/header/lovehover.svg');
 }
