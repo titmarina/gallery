@@ -135,3 +135,10 @@
     border: 1px solid #E9E9E9;
     border-radius: 150px;
 }
+
+@media screen and (max-width: 768px) {
+    .slider-line {
+       left: 106px;
+   
+    }
+}

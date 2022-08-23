@@ -8,18 +8,18 @@ new Swiper('.gallery__swiper', {
 
 
 
-    breakpoints: {600:
-        {
+    breakpoints: {
+        600:{
             slidesPerView: 2,
             spaceBetween: 20,
         },
         
-        650: {
+        700: {
             slidesPerView: 3,
             spaceBetween: 20,
         },
 
-        768: {
+        769: {
             slidesPerView: 4,
             spaceBetween: 26,
         }        

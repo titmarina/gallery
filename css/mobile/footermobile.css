@@ -39,7 +39,12 @@
         text-decoration: none;
     }
 
-
+    .navigation-link-mobile:hover {
+        background-image: url('../../images/header/Ellipse\ 62.png');
+        background-repeat: no-repeat;
+        background-position: center 60px;
+    }
+    
 .socials__mobile-footer {
     display: flex;
 }

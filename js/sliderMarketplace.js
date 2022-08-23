@@ -2,24 +2,24 @@ new Swiper('.marketplace-swiper', {
   // Optional parameters
   loop: true,
   direction: 'horizontal',
-  slidesPerView: 5,
-  spaceBetween: 66,
+  slidesPerView: 2,
+  spaceBetween: 19,
   centeredSlides: true,
 
   breakpoints: {
     600:
     {
-      slidesPerView: 2,
+      slidesPerView: 3,
       spaceBetween: 19,
     },
 
-    650: {
-      slidesPerView: 3,
+    768: {
+      slidesPerView: 6,
       spaceBetween: 38,
     },
 
-    768: {
-      slidesPerView: 5,
+    1440: {
+      slidesPerView: 6,
       spaceBetween: 66,
     }
   },

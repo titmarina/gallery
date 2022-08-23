@@ -44,11 +44,8 @@
 
  .desc__decoration {
     margin: 19px 20px 26px 421px;
-    position: absolute;
     width: 350px;
-    height: 350px;
-    z-index: -1;
- }
+     }
 
  .desc__img-1 {
     width: 228px;
